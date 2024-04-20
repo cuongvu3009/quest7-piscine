@@ -1,11 +1,11 @@
 package main
 
 import (
-	"fmt"
-	"piscine"
+	"github.com/cuongvu3009/quest7-piscine/piscine"
 )
 
 func main() {
-	fmt.Println(piscine.AppendRange(5, 10))
-	fmt.Println(piscine.AppendRange(10, 5))
+	a := piscine.SplitWhiteSpaces("Hello how are you?")
+	piscine.PrintWordsTables(a)
+
 }
